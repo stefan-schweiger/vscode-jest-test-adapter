@@ -1,6 +1,6 @@
 import { JSONSchemaForNPMPackageJsonFiles } from "@schemastore/package";
 import fs from "fs";
-import _, { keyBy } from "lodash";
+import _ from "lodash";
 import path from "path";
 import { gt } from "semver";
 import util from "util";
